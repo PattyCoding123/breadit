@@ -3,6 +3,7 @@ import { FC } from "react";
 
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/Button";
+import SignIn from "@/components/SignIn";
 
 // url = /sign-in, (auth) folder is only for organizational purposes
 const Page: FC = () => {
@@ -18,6 +19,8 @@ const Page: FC = () => {
         >
           Home
         </Link>
+
+        <SignIn />
       </div>
     </div>
   );
