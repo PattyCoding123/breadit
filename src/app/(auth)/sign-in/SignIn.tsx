@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { Icons } from "./Icons";
+import { Icons } from "../../../components/Icons";
 
 // Server component
 const SignIn = () => {
@@ -15,6 +15,7 @@ const SignIn = () => {
         </p>
 
         {/* Sign-in form */}
+        {/* <UserAuthForm /> */}
 
         <p className="px-8 text-center text-sm text-zinc-700">
           New to Beadit?{" "}
